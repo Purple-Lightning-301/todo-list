@@ -7,6 +7,18 @@ function ToDo(props) {
         ))
     };
 
+    // const completeHandler = () => {
+    //     props.setToDos(props.toDos.map(item => {
+    //         if(item.id === props.todo.id){
+    //             return {
+    //                 ...item, completed: !item.completed
+    //             }; 
+    //         }
+    //         return item;
+    //     }))
+    //     )
+    // }
+
     const completeHandler = () => {
         props.setToDos(props.toDos.map(item => {
             if(item.id === props.todo.id){
