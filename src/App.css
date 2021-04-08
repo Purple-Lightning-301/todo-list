@@ -144,8 +144,8 @@ table {
   z-index: -1;
   background: url("./assets/bg.jpg") no-repeat;
   opacity: 0.5;
-  content: "";
   background-size: cover;
+  content: "";
 }
 .header {
   font-weight: bold;
